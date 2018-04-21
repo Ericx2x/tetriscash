@@ -176,9 +176,7 @@ small{
 .LeaderBoard tbody tr td:nth-child(5){
   max-width:150px;
 }
-body > div{
-  display: none;
-}
+
 .username{
   display:inline-block;
   vertical-align:top;
