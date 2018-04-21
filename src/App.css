@@ -132,7 +132,7 @@ small{
 
 /* leaderboard */
 
-.LeardBoard table{
+.LeaderBoard table{
   text-align:center;
   margin:50px auto;
   background:#2A2A2A;
@@ -140,40 +140,40 @@ small{
   max-width:1200px;
 }
 
-.LeardBoard .heading tr th{
+.LeaderBoard .heading tr th{
   background:#1f8dd6;
   color:white;
 }
 
 
-.LeardBoard .headers tr th {
+.LeaderBoard .headers tr th {
   background:#E0E0E0;
   padding:20px;
 }
-.LeardBoard .headers tr a {
+.LeaderBoard .headers tr a {
   color:black;
 }
 
-.LeardBoard tbody tr td{
+.LeaderBoard tbody tr td{
   background:#555555;
   color:white;
   padding:10px;
 }
-.LeardBoard .LeardBoard .headers tr th:nth-child(2){
+.LeaderBoard .LeaderBoard .headers tr th:nth-child(2){
   text-align:left;
 }
-.LeardBoard tbody tr td:nth-child(2){
+.LeaderBoard tbody tr td:nth-child(2){
   text-align:left;
   vertical-align:middle;
 }
 
-.LeardBoard tbody tr td:nth-child(2) img{
+.LeaderBoard tbody tr td:nth-child(2) img{
   width: 100px;
 }
-.LeardBoard tbody tr:nth-child(even) td{
+.LeaderBoard tbody tr:nth-child(even) td{
    background:rgba(255,255,255,0.3);
 }
-.LeardBoard tbody tr td:nth-child(5){
+.LeaderBoard tbody tr td:nth-child(5){
   max-width:150px;
 }
 

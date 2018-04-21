@@ -12,7 +12,7 @@ let BITBOX = new BITBOXCli({
   corsproxy: true
 });
 
-class LeardBoard extends Component {
+class LeaderBoard extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,7 +28,7 @@ class LeardBoard extends Component {
   }
 
   handleSubmit(e) {
-    // BITBOX.RawTransactions.LeardBoard(this.state.txid).then((result) => {
+    // BITBOX.RawTransactions.LeaderBoard(this.state.txid).then((result) => {
     //   this.setState({
     //     data: result
     //   })
@@ -38,8 +38,9 @@ class LeardBoard extends Component {
 
   render() {
     return (
-      <div className="LeardBoard">
-        <h1 className="LeardBoard-title">LeardBoard</h1>
+      <div className="LeaderBoard">
+        <h1 className="LeaderBoard-title">LeaderBoard</h1>
+        <p>Winners get paid out every Friday. Prize pool is distributed based on the pot size.</p>
         <table>
    <thead className="heading">
       <tr>
@@ -1265,4 +1266,4 @@ class LeardBoard extends Component {
   }
 }
 
-export default LeardBoard;
+export default LeaderBoard;
