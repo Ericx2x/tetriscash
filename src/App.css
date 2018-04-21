@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #2d3e50;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-content {
+  padding-left: 20px;
+  text-align:left;
+}
+
+.App ul, .App h2 {
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.tetris-container{
+  margin: 24px auto 0;
+  width: 100%;
+  max-width: 476px;
+}
+
+
+
+.tetris-container > .heldPiece-container{
+  display: inline-block;
+  vertical-align: top;
+  width: 88px;
+}
+
+.tetris-container > .text-info{
+
+  position: relative;
+  font-family: monospace;
+  font-size: 18px;
+  color: #888;
+}
+
+.tetris-container > .text-info p{
+
+  width: 50px;
+  display: inline-block;
+  width: 40%;
+}
+
+.tetris-container > .game-container{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+
+.tetris-container > .pieceQueue-container{
+  display: inline-block;
+  vertical-align: top;
+  width: 88px;
+  padding-left: 15px;
+}
+
+.game-block {
+  margin: 0;
+  padding: 0;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #ddd;
+}
+.piece-view {
+  margin-bottom: 12px;
+}
+.piece-view:first-child {
+  margin-top: 4px;
+}
+.piece-view .game-block {
+  width: 18px;
+  height: 18px;
+}
+.piece-i {
+  background-color: #ec858b;
+}
+.piece-j {
+  background-color: #f1b598;
+}
+.piece-l {
+  background-color: #f8efae;
+}
+.piece-o {
+  background-color: #b5a677;
+}
+.piece-s {
+  background-color: #816e56;
+}
+.piece-t {
+  background-color: #b77c72;
+}
+.piece-z {
+  background-color: #e3be58;
+}
+.piece-preview {
+  background-color: #eee;
+}
+small{
+  color: red;
+  
+}
+
+
+
+
+
+
+
+
+/* leaderboard */
+
+.LeardBoard table{
+  text-align:center;
+  margin:50px auto;
+  background:#2A2A2A;
+  width:90%;
+  max-width:1200px;
+}
+
+.LeardBoard .heading tr th{
+  background:#1f8dd6;
+  color:white;
+}
+
+
+.LeardBoard .headers tr th {
+  background:#E0E0E0;
+  padding:20px;
+}
+.LeardBoard .headers tr a {
+  color:black;
+}
+
+.LeardBoard tbody tr td{
+  background:#555555;
+  color:white;
+  padding:10px;
+}
+.LeardBoard .LeardBoard .headers tr th:nth-child(2){
+  text-align:left;
+}
+.LeardBoard tbody tr td:nth-child(2){
+  text-align:left;
+  vertical-align:middle;
+}
+
+.LeardBoard tbody tr td:nth-child(2) img{
+  width: 100px;
+}
+.LeardBoard tbody tr:nth-child(even) td{
+   background:rgba(255,255,255,0.3);
+}
+.LeardBoard tbody tr td:nth-child(5){
+  max-width:150px;
+}
+
+.username{
+  display:inline-block;
+  vertical-align:top;
+  padding-top: 15px;
+  padding-left: 10px;
+  color:white;
+}
+
+@keyframes scale{
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+@keyframes scale1{
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+.normal{
+  animation: scale1 1s ease-in-out 1 forwards;
+}
+.night {
+  background:#555555;
+  animation: scale 1s ease-in-out 1 forwards;
+}
+
+.night .headers tr th {
+  background:#555555;
+  color:white;
+}
+.night .headers tr a {
+  color:white;
+}
+
+.night tbody tr td {
+  background:#E0E0E0;
+  color:black;
+}
+.night tbody tr:nth-child(even) td{
+   background:rgba(255,255,255,0.7);
+}
+
+.night .username {
+  color:black;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+    margin:5px;
+    margin-left:7px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
